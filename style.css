@@ -30,18 +30,18 @@ nav ul{
 .gameContainer{
     
     display: flex;
-    justify-self: center;
+    justify-content: center;
     margin-top: 50px;
-    position: relative;
-    left: 0;
+ 
+
 }
 
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 8vw);
+    grid-template-columns: repeat(3, 8vw);
     font-family:"Roboto", sans-serif; 
-    position: relative;
+    
 
 }
 
@@ -61,6 +61,11 @@ nav ul{
 .gameInfo{
     padding: 0 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.gameInfo h1{
+    font-size:  2.5rem;
 }
 .imgbox img{
     width: 0;
@@ -88,15 +93,8 @@ nav ul{
     background-color: rgb(215, 175, 215);
     border-radius: 10px;
     cursor: pointer;
-
-
+    
 }
 
-.line{
-    background-color: black;
-    height: 5px;
-    width: 0;
-    position: absolute;
-    background-color: rgb(151, 94, 151);
-    transition: all 0.3s ease-in-out;
-}
+
+
